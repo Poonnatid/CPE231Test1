@@ -1,12 +1,13 @@
 import random
-del generate_list()
+def generate_list():
     alist = [x for x in range(random.randint(-10, 10))]
+    assert x , "x > 0:"
     return alist
 
 """
 print a generate list
 """
-def printIt()
+def printIt():
     print( generate_list() )
     
 def main():
